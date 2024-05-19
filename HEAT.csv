@@ -54,7 +54,7 @@ Czechia,2010,100.0
 Czechia,2011,100.0
 Czechia,2012,100.0
 Czechia,2013,100.0
-Czechia,2014,100.2
+Czechia,2014,100.0
 Czechia,2015,100.0
 Czechia,2016,100.0
 Czechia,2017,100.0
@@ -132,18 +132,18 @@ Hungary,2018,94.0
 Hungary,2019,94.0
 Hungary,2020,94.0
 Hungary,2021,95.0
-Iceland,2010,100.0
-Iceland,2011,100.0
-Iceland,2012,100.0
-Iceland,2013,100.0
-Iceland,2014,100.0
-Iceland,2015,100.0
-Iceland,2016,100.0
-Iceland,2017,100.0
-Iceland,2018,100.0
-Iceland,2019,100.0
-Iceland,2020,100.0
-Iceland,2021,100.0
+Iceland,2010,99.8
+Iceland,2011,99.8
+Iceland,2012,99.8
+Iceland,2013,99.8
+Iceland,2014,99.8
+Iceland,2015,99.7
+Iceland,2016,99.6
+Iceland,2017,99.5
+Iceland,2018,99.6
+Iceland,2019,99.6
+Iceland,2020,99.6
+Iceland,2021,99.6
 Ireland,2010,100.0
 Ireland,2011,100.0
 Ireland,2012,100.0
@@ -285,12 +285,12 @@ Slovak Republic,2018,94.5
 Slovak Republic,2019,94.6
 Slovak Republic,2020,94.6
 Slovak Republic,2021,95.0
-Spain,2011,99.9
-Spain,2014,99.8
-Spain,2017,99.9
+Spain,2011,99.0
+Spain,2014,99.1
+Spain,2017,99.0
 Spain,2018,100.0
 Spain,2019,100.0
-Spain,2020,100.7
+Spain,2020,100.0
 Spain,2021,100.0
 Spain,2022,100.0
 Sweden,2010,100.0
@@ -341,31 +341,31 @@ United Kingdom,2018,100.0
 United Kingdom,2019,100.0
 United Kingdom,2020,100.0
 United Kingdom,2021,100.0
-United States,2010,84.0
-United States,2011,84.9
-United States,2012,85.3
-United States,2013,85.5
-United States,2014,88.5
-United States,2015,90.9
-United States,2016,91.2
-United States,2017,90.8
-United States,2018,90.6
-United States,2019,89.7
-United States,2020,90.3
-United States,2021,90.8
-Chile,2010,90.9
-Chile,2011,93.4
-Chile,2012,94.1
-Chile,2013,94.5
-Chile,2014,94.2
-Chile,2015,92.6
-Chile,2016,94.2
-Chile,2017,94.0
-Chile,2018,93.4
-Chile,2019,95.6
-Chile,2020,95.0
-Chile,2021,94.3
-Chile,2022,94.6
+United States,2010,30.8
+United States,2011,31.8
+United States,2012,32.6
+United States,2013,33.0
+United States,2014,34.5
+United States,2015,35.6
+United States,2016,36.3
+United States,2017,35.9
+United States,2018,34.0
+United States,2019,37.3
+United States,2020,38.1
+United States,2021,38.4
+Chile,2010,74.4
+Chile,2011,76.5
+Chile,2012,76.7
+Chile,2013,76.4
+Chile,2014,75.7
+Chile,2015,73.8
+Chile,2016,75.5
+Chile,2017,75.5
+Chile,2018,75.2
+Chile,2019,77.7
+Chile,2020,77.8
+Chile,2021,77.4
+Chile,2022,78.7
 Estonia,2010,94.5
 Estonia,2011,94.0
 Estonia,2012,93.7

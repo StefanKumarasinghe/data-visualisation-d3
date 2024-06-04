@@ -1,0 +1,622 @@
+Year,Country,Value
+2010,Australia,81.7
+2011,Australia,81.9
+2012,Australia,82.0
+2013,Australia,82.1
+2014,Australia,82.3
+2015,Australia,82.4
+2016,Australia,82.4
+2017,Australia,82.5
+2018,Australia,82.7
+2019,Australia,82.9
+2020,Australia,83.2
+2021,Australia,83.3
+2010,Austria,80.7
+2011,Austria,81.1
+2012,Austria,81.1
+2013,Austria,81.3
+2014,Austria,81.6
+2015,Austria,81.3
+2016,Austria,81.8
+2017,Austria,81.7
+2018,Austria,81.8
+2019,Austria,82.0
+2020,Austria,81.3
+2021,Austria,81.3
+2022,Austria,81.1
+2010,Belgium,80.3
+2011,Belgium,80.7
+2012,Belgium,80.5
+2013,Belgium,80.7
+2014,Belgium,81.4
+2015,Belgium,81.1
+2016,Belgium,81.5
+2017,Belgium,81.6
+2018,Belgium,81.7
+2019,Belgium,82.1
+2020,Belgium,80.8
+2021,Belgium,81.9
+2022,Belgium,81.8
+2010,Canada,81.4
+2011,Canada,81.6
+2012,Canada,81.8
+2013,Canada,81.8
+2014,Canada,81.9
+2015,Canada,81.9
+2016,Canada,82.0
+2017,Canada,81.9
+2018,Canada,81.9
+2019,Canada,82.3
+2020,Canada,81.7
+2021,Canada,81.6
+2010,Czechia,77.7
+2011,Czechia,78.0
+2012,Czechia,78.1
+2013,Czechia,78.3
+2014,Czechia,78.9
+2015,Czechia,78.7
+2016,Czechia,79.1
+2017,Czechia,79.1
+2018,Czechia,79.1
+2019,Czechia,79.3
+2020,Czechia,78.3
+2021,Czechia,77.2
+2022,Czechia,79.1
+2010,Denmark,79.3
+2011,Denmark,79.9
+2012,Denmark,80.2
+2013,Denmark,80.4
+2014,Denmark,80.7
+2015,Denmark,80.8
+2016,Denmark,80.9
+2017,Denmark,81.1
+2018,Denmark,81.0
+2019,Denmark,81.5
+2020,Denmark,81.6
+2021,Denmark,81.5
+2022,Denmark,81.3
+2010,Finland,80.2
+2011,Finland,80.6
+2012,Finland,80.7
+2013,Finland,81.1
+2014,Finland,81.3
+2015,Finland,81.6
+2016,Finland,81.5
+2017,Finland,81.7
+2018,Finland,81.8
+2019,Finland,82.1
+2020,Finland,82.0
+2021,Finland,81.9
+2022,Finland,81.2
+2010,France,81.9
+2011,France,82.3
+2012,France,82.1
+2013,France,82.4
+2014,France,82.9
+2015,France,82.4
+2016,France,82.7
+2017,France,82.7
+2018,France,82.8
+2019,France,83.0
+2020,France,82.3
+2021,France,82.4
+2022,France,82.3
+2010,Germany,80.5
+2011,Germany,80.6
+2012,Germany,80.7
+2013,Germany,80.6
+2014,Germany,81.2
+2015,Germany,80.7
+2016,Germany,81.0
+2017,Germany,81.1
+2018,Germany,81.0
+2019,Germany,81.3
+2020,Germany,81.1
+2021,Germany,80.8
+2022,Germany,80.7
+2010,Greece,80.6
+2011,Greece,80.8
+2012,Greece,80.7
+2013,Greece,81.4
+2014,Greece,81.5
+2015,Greece,81.1
+2016,Greece,81.5
+2017,Greece,81.4
+2018,Greece,81.9
+2019,Greece,81.7
+2020,Greece,81.4
+2021,Greece,80.2
+2022,Greece,80.7
+2010,Hungary,74.7
+2011,Hungary,75.1
+2012,Hungary,75.3
+2013,Hungary,75.8
+2014,Hungary,76.0
+2015,Hungary,75.7
+2016,Hungary,76.2
+2017,Hungary,76.0
+2018,Hungary,76.2
+2019,Hungary,76.5
+2020,Hungary,75.7
+2021,Hungary,74.3
+2022,Hungary,76.2
+2010,Iceland,81.9
+2011,Iceland,82.4
+2012,Iceland,83.0
+2013,Iceland,82.1
+2014,Iceland,82.9
+2015,Iceland,82.5
+2016,Iceland,82.2
+2017,Iceland,82.6
+2018,Iceland,82.9
+2019,Iceland,83.2
+2020,Iceland,83.1
+2021,Iceland,83.2
+2022,Iceland,82.1
+2010,Ireland,80.8
+2011,Ireland,80.9
+2012,Ireland,80.9
+2013,Ireland,81.0
+2014,Ireland,81.4
+2015,Ireland,81.5
+2016,Ireland,81.7
+2017,Ireland,82.2
+2018,Ireland,82.2
+2019,Ireland,82.8
+2020,Ireland,82.6
+2021,Ireland,82.4
+2010,Italy,82.2
+2011,Italy,82.4
+2012,Italy,82.4
+2013,Italy,82.9
+2014,Italy,83.2
+2015,Italy,82.7
+2016,Italy,83.4
+2017,Italy,83.1
+2018,Italy,83.4
+2019,Italy,83.6
+2020,Italy,82.3
+2021,Italy,82.7
+2022,Italy,83.0
+2010,Japan,82.9
+2011,Japan,82.7
+2012,Japan,83.2
+2013,Japan,83.4
+2014,Japan,83.7
+2015,Japan,83.9
+2016,Japan,84.1
+2017,Japan,84.2
+2018,Japan,84.3
+2019,Japan,84.4
+2020,Japan,84.6
+2021,Japan,84.5
+2010,Korea,80.2
+2011,Korea,80.6
+2012,Korea,80.9
+2013,Korea,81.4
+2014,Korea,81.8
+2015,Korea,82.1
+2016,Korea,82.4
+2017,Korea,82.7
+2018,Korea,82.7
+2019,Korea,83.3
+2020,Korea,83.5
+2021,Korea,83.6
+2010,Luxembourg,80.8
+2011,Luxembourg,81.1
+2012,Luxembourg,81.5
+2013,Luxembourg,81.9
+2014,Luxembourg,82.3
+2015,Luxembourg,82.4
+2016,Luxembourg,82.7
+2017,Luxembourg,82.1
+2018,Luxembourg,82.3
+2019,Luxembourg,82.7
+2020,Luxembourg,82.2
+2021,Luxembourg,82.7
+2022,Luxembourg,83.0
+2010,Mexico,74.8
+2011,Mexico,74.9
+2012,Mexico,75.0
+2013,Mexico,75.0
+2014,Mexico,75.0
+2015,Mexico,74.7
+2016,Mexico,74.8
+2017,Mexico,74.9
+2018,Mexico,75.0
+2019,Mexico,75.1
+2020,Mexico,75.2
+2021,Mexico,75.4
+2010,Netherlands,81.0
+2011,Netherlands,81.3
+2012,Netherlands,81.2
+2013,Netherlands,81.4
+2014,Netherlands,81.8
+2015,Netherlands,81.6
+2016,Netherlands,81.7
+2017,Netherlands,81.8
+2018,Netherlands,81.9
+2019,Netherlands,82.2
+2020,Netherlands,81.4
+2021,Netherlands,81.4
+2022,Netherlands,81.7
+2010,New Zealand,80.8
+2011,New Zealand,81.0
+2012,New Zealand,81.2
+2013,New Zealand,81.4
+2014,New Zealand,81.4
+2015,New Zealand,81.5
+2016,New Zealand,81.6
+2017,New Zealand,81.7
+2018,New Zealand,81.7
+2019,New Zealand,82.1
+2020,New Zealand,82.3
+2021,New Zealand,82.3
+2010,Norway,81.2
+2011,Norway,81.4
+2012,Norway,81.5
+2013,Norway,81.8
+2014,Norway,82.2
+2015,Norway,82.4
+2016,Norway,82.5
+2017,Norway,82.7
+2018,Norway,82.8
+2019,Norway,83.0
+2020,Norway,83.3
+2021,Norway,83.2
+2022,Norway,82.6
+2010,Poland,76.4
+2011,Poland,76.8
+2012,Poland,76.9
+2013,Poland,77.1
+2014,Poland,77.8
+2015,Poland,77.5
+2016,Poland,78.0
+2017,Poland,77.8
+2018,Poland,77.7
+2019,Poland,78.0
+2020,Poland,76.5
+2021,Poland,75.5
+2022,Poland,77.4
+2010,Portugal,80.1
+2011,Portugal,80.7
+2012,Portugal,80.6
+2013,Portugal,80.9
+2014,Portugal,81.3
+2015,Portugal,81.3
+2016,Portugal,81.3
+2017,Portugal,81.6
+2018,Portugal,81.5
+2019,Portugal,81.9
+2020,Portugal,81.1
+2021,Portugal,81.5
+2022,Portugal,81.7
+2010,Slovak Republic,75.6
+2011,Slovak Republic,76.1
+2012,Slovak Republic,76.3
+2013,Slovak Republic,76.6
+2014,Slovak Republic,77.0
+2015,Slovak Republic,76.7
+2016,Slovak Republic,77.3
+2017,Slovak Republic,77.3
+2018,Slovak Republic,77.4
+2019,Slovak Republic,77.8
+2020,Slovak Republic,77.0
+2021,Slovak Republic,74.6
+2022,Slovak Republic,77.2
+2010,Spain,82.4
+2011,Spain,82.6
+2012,Spain,82.5
+2013,Spain,83.2
+2014,Spain,83.3
+2015,Spain,83.0
+2016,Spain,83.5
+2017,Spain,83.4
+2018,Spain,83.5
+2019,Spain,84.0
+2020,Spain,82.4
+2021,Spain,83.3
+2022,Spain,83.2
+2010,Sweden,81.6
+2011,Sweden,81.9
+2012,Sweden,81.8
+2013,Sweden,82.0
+2014,Sweden,82.3
+2015,Sweden,82.2
+2016,Sweden,82.4
+2017,Sweden,82.5
+2018,Sweden,82.6
+2019,Sweden,83.2
+2020,Sweden,82.4
+2021,Sweden,83.1
+2022,Sweden,83.1
+2010,Switzerland,82.7
+2011,Switzerland,82.8
+2012,Switzerland,82.8
+2013,Switzerland,82.9
+2014,Switzerland,83.3
+2015,Switzerland,83.0
+2016,Switzerland,83.7
+2017,Switzerland,83.7
+2018,Switzerland,83.8
+2019,Switzerland,84.0
+2020,Switzerland,83.1
+2021,Switzerland,83.9
+2022,Switzerland,83.5
+2010,Türkiye,74.3
+2011,Türkiye,74.6
+2012,Türkiye,74.6
+2013,Türkiye,78.0
+2014,Türkiye,78.0
+2015,Türkiye,78.0
+2016,Türkiye,78.0
+2017,Türkiye,78.1
+2018,Türkiye,78.3
+2019,Türkiye,78.6
+2010,United Kingdom,80.4
+2011,United Kingdom,80.7
+2012,United Kingdom,80.8
+2013,United Kingdom,80.9
+2014,United Kingdom,81.1
+2015,United Kingdom,80.9
+2016,United Kingdom,81.0
+2017,United Kingdom,81.1
+2018,United Kingdom,81.1
+2019,United Kingdom,81.4
+2020,United Kingdom,80.4
+2010,United States,78.7
+2011,United States,78.7
+2012,United States,78.8
+2013,United States,78.8
+2014,United States,78.9
+2015,United States,78.7
+2016,United States,78.7
+2017,United States,78.6
+2018,United States,78.7
+2019,United States,78.8
+2020,United States,77.0
+2021,United States,76.4
+2010,Brazil,72.9
+2011,Brazil,73.2
+2012,Brazil,73.3
+2013,Brazil,73.6
+2014,Brazil,73.9
+2015,Brazil,74.3
+2016,Brazil,74.3
+2017,Brazil,74.4
+2018,Brazil,74.8
+2019,Brazil,75.1
+2020,Brazil,75.3
+2021,Brazil,74.0
+2022,Brazil,72.8
+2010,Chile,78.7
+2011,Chile,79.0
+2012,Chile,79.2
+2013,Chile,79.4
+2014,Chile,79.6
+2015,Chile,79.8
+2016,Chile,80.0
+2017,Chile,80.2
+2018,Chile,80.4
+2019,Chile,80.6
+2020,Chile,80.8
+2021,Chile,81.0
+2022,Chile,81.2
+2010,China (People's Republic of),75.3
+2011,China (People's Republic of),75.6
+2012,China (People's Republic of),75.9
+2013,China (People's Republic of),76.2
+2014,China (People's Republic of),76.5
+2015,China (People's Republic of),76.7
+2016,China (People's Republic of),77.0
+2017,China (People's Republic of),77.2
+2018,China (People's Republic of),77.2
+2019,China (People's Republic of),77.7
+2020,China (People's Republic of),78.0
+2021,China (People's Republic of),78.1
+2022,China (People's Republic of),78.2
+2010,Estonia,76.0
+2011,Estonia,76.6
+2012,Estonia,76.7
+2013,Estonia,77.5
+2014,Estonia,77.4
+2015,Estonia,78.0
+2016,Estonia,78.0
+2017,Estonia,78.4
+2018,Estonia,78.5
+2019,Estonia,79.0
+2020,Estonia,78.9
+2021,Estonia,77.2
+2022,Estonia,78.2
+2010,India,66.5
+2011,India,66.9
+2012,India,67.4
+2013,India,67.9
+2014,India,68.5
+2015,India,69.1
+2016,India,69.6
+2017,India,70.1
+2018,India,70.5
+2019,India,70.7
+2020,India,70.9
+2021,India,70.2
+2022,India,67.2
+2010,Indonesia,68.5
+2011,Indonesia,68.7
+2012,Indonesia,68.8
+2013,Indonesia,69.0
+2014,Indonesia,69.3
+2015,Indonesia,69.5
+2016,Indonesia,69.7
+2017,Indonesia,69.8
+2018,Indonesia,69.9
+2019,Indonesia,70.3
+2020,Indonesia,70.5
+2021,Indonesia,68.8
+2022,Indonesia,67.6
+2010,Israel,81.7
+2011,Israel,81.8
+2012,Israel,81.8
+2013,Israel,82.1
+2014,Israel,82.2
+2015,Israel,82.2
+2016,Israel,82.5
+2017,Israel,82.7
+2018,Israel,82.9
+2019,Israel,82.9
+2020,Israel,82.7
+2021,Israel,82.6
+2022,Israel,82.9
+2010,Russia,69.0
+2011,Russia,69.8
+2012,Russia,70.2
+2013,Russia,70.7
+2014,Russia,70.9
+2015,Russia,71.3
+2016,Russia,71.8
+2017,Russia,72.6
+2018,Russia,72.8
+2019,Russia,73.2
+2010,Slovenia,79.8
+2011,Slovenia,80.1
+2012,Slovenia,80.3
+2013,Slovenia,80.5
+2014,Slovenia,81.2
+2015,Slovenia,80.9
+2016,Slovenia,81.2
+2017,Slovenia,81.2
+2018,Slovenia,81.5
+2019,Slovenia,81.6
+2020,Slovenia,80.6
+2021,Slovenia,80.7
+2022,Slovenia,81.3
+2010,South Africa,57.4
+2011,South Africa,58.9
+2012,South Africa,60.7
+2013,South Africa,61.8
+2014,South Africa,62.5
+2015,South Africa,63.4
+2016,South Africa,64.0
+2017,South Africa,64.7
+2018,South Africa,65.4
+2019,South Africa,65.7
+2020,South Africa,66.2
+2021,South Africa,65.3
+2022,South Africa,62.3
+2010,Latvia,73.1
+2011,Latvia,73.9
+2012,Latvia,74.1
+2013,Latvia,74.3
+2014,Latvia,74.5
+2015,Latvia,74.8
+2016,Latvia,74.9
+2017,Latvia,74.9
+2018,Latvia,75.1
+2019,Latvia,75.7
+2020,Latvia,75.5
+2021,Latvia,73.1
+2022,Latvia,74.8
+2010,Costa Rica,79.1
+2011,Costa Rica,79.1
+2012,Costa Rica,79.4
+2013,Costa Rica,79.6
+2014,Costa Rica,79.7
+2015,Costa Rica,79.9
+2016,Costa Rica,80.0
+2017,Costa Rica,80.2
+2018,Costa Rica,80.3
+2019,Costa Rica,80.5
+2020,Costa Rica,80.6
+2021,Costa Rica,80.8
+2022,Costa Rica,80.9
+2010,Lithuania,73.3
+2011,Lithuania,73.7
+2012,Lithuania,74.1
+2013,Lithuania,74.1
+2014,Lithuania,74.7
+2015,Lithuania,74.6
+2016,Lithuania,74.9
+2017,Lithuania,75.8
+2018,Lithuania,76.0
+2019,Lithuania,76.5
+2020,Lithuania,75.1
+2021,Lithuania,74.2
+2022,Lithuania,76.0
+2010,Colombia,74.3
+2011,Colombia,74.5
+2012,Colombia,74.7
+2013,Colombia,75.0
+2014,Colombia,75.2
+2015,Colombia,75.4
+2016,Colombia,75.7
+2017,Colombia,75.9
+2018,Colombia,76.5
+2019,Colombia,76.6
+2020,Colombia,76.7
+2021,Colombia,76.8
+2022,Colombia,76.9
+2010,Peru,73.5
+2011,Peru,73.7
+2012,Peru,74.1
+2013,Peru,74.5
+2014,Peru,75.0
+2015,Peru,75.3
+2016,Peru,75.6
+2017,Peru,75.8
+2018,Peru,75.9
+2019,Peru,76.0
+2020,Peru,76.2
+2021,Peru,73.7
+2022,Peru,72.4
+2010,Bulgaria,73.8
+2011,Bulgaria,74.2
+2012,Bulgaria,74.4
+2013,Bulgaria,74.9
+2014,Bulgaria,74.5
+2015,Bulgaria,74.7
+2016,Bulgaria,74.9
+2017,Bulgaria,74.8
+2018,Bulgaria,75.0
+2019,Bulgaria,75.1
+2020,Bulgaria,73.6
+2021,Bulgaria,71.4
+2022,Bulgaria,74.3
+2010,Croatia,76.7
+2011,Croatia,77.2
+2012,Croatia,77.3
+2013,Croatia,77.8
+2014,Croatia,77.9
+2015,Croatia,77.5
+2016,Croatia,78.2
+2017,Croatia,78.0
+2018,Croatia,78.2
+2019,Croatia,78.6
+2020,Croatia,77.8
+2021,Croatia,76.7
+2022,Croatia,77.7
+2010,Romania,73.7
+2011,Romania,74.4
+2012,Romania,74.4
+2013,Romania,75.1
+2014,Romania,75.0
+2015,Romania,74.9
+2016,Romania,75.2
+2017,Romania,75.2
+2018,Romania,75.3
+2019,Romania,75.6
+2020,Romania,74.2
+2021,Romania,72.8
+2022,Romania,75.3
+2010,Argentina,75.9
+2011,Argentina,75.7
+2012,Argentina,76.1
+2013,Argentina,76.5
+2014,Argentina,76.5
+2015,Argentina,76.8
+2016,Argentina,76.8
+2017,Argentina,76.3
+2018,Argentina,76.8
+2019,Argentina,77.0
+2020,Argentina,77.3
+2021,Argentina,75.9
+2022,Argentina,75.4

@@ -85,6 +85,7 @@
     <div class="col-md-5 mx-5">
         <div id="chart" class="mb-4 mx-2 small" > <h5 class="fw-bold">Life Expectancy & Health Coverage (2 Countries)</h5><small>Additional Information between two countries</small><p>The graph below display the health insurance and life expectancy between two countries for better comparisons. Note the <span style="color:steelblue" class="fw-bold">---</span> is for Health Insurance Coverage and <span style="color:orange" class="fw-bold">---</span> is for Life Expectancy</p></div>
       <div class="round p-1 fw-bold card-body">
+        <p class="bg-success text-white p-3 rounded-4">Please check two countries only if you would like to see a detailed chart</p>
         <h3 class="mb-3 fw-bold">Interactive Tools</h3>
         <h5 class="mt-3 fw-bold">Legends</h5>
         <small>This represents the color scale for the amount of health coverage from 0-100%</small>
@@ -135,169 +136,173 @@
             </div>
           </div>
         </div>
+        <div class="my-3">
+        <button class="btn btn-danger" onclick="clearCountry()">Clear Countries</button> <button onclick="allCountry()" class="btn btn-success">All Countries</button>
+        </div>
         <div class="row mt-4">
           <div class="col-6">
             <h5 class=" fw-bold my-3">Countries</h5>
+         
             <div style="height:600px; overflow:auto" class="">
               <div class="form-group">
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryAustralia" value="Australia" data-continent="Australia">
+                  <input class="form-check-input country" type="checkbox" id="countryAustralia" value="Australia" data-continent="Australia">
                   <label class="form-check-label" for="countryAustralia">Australia</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryAustria" value="Austria" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryAustria" value="Austria" data-continent="Europe">
                   <label class="form-check-label" for="countryAustria">Austria</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryBelgium" value="Belgium" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryBelgium" value="Belgium" data-continent="Europe">
                   <label class="form-check-label" for="countryBelgium">Belgium</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryCanada" value="Canada" data-continent="NorthAmerica">
+                  <input class="form-check-input country" type="checkbox" id="countryCanada" value="Canada" data-continent="NorthAmerica">
                   <label class="form-check-label" for="countryCanada">Canada</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryCzechia" value="Czechia" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryCzechia" value="Czechia" data-continent="Europe">
                   <label class="form-check-label" for="countryCzechia">Czechia</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryDenmark" value="Denmark" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryDenmark" value="Denmark" data-continent="Europe">
                   <label class="form-check-label" for="countryDenmark">Denmark</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryFinland" value="Finland" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryFinland" value="Finland" data-continent="Europe">
                   <label class="form-check-label" for="countryFinland">Finland</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryFrance" value="France" data-continent="Europe">
+                  <input class="form-check-input country"  type="checkbox" id="countryFrance" value="France" data-continent="Europe">
                   <label class="form-check-label" for="countryFrance">France</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryGermany" value="Germany" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryGermany" value="Germany" data-continent="Europe">
                   <label class="form-check-label" for="countryGermany">Germany</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryGreece" value="Greece" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryGreece" value="Greece" data-continent="Europe">
                   <label class="form-check-label" for="countryGreece">Greece</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryHungary" value="Hungary" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryHungary" value="Hungary" data-continent="Europe">
                   <label class="form-check-label" for="countryHungary">Hungary</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryIceland" value="Iceland" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryIceland" value="Iceland" data-continent="Europe">
                   <label class="form-check-label" for="countryIceland">Iceland</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryIreland" value="Ireland" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryIreland" value="Ireland" data-continent="Europe">
                   <label class="form-check-label" for="countryIreland">Ireland</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryItaly" value="Italy" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryItaly" value="Italy" data-continent="Europe">
                   <label class="form-check-label" for="countryItaly">Italy</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryJapan" value="Japan" data-continent="Asia">
+                  <input class="form-check-input country" type="checkbox" id="countryJapan" value="Japan" data-continent="Asia">
                   <label class="form-check-label" for="countryJapan">Japan</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryKorea" value="Korea" data-continent="Asia">
+                  <input class="form-check-input country" type="checkbox" id="countryKorea" value="Korea" data-continent="Asia">
                   <label class="form-check-label" for="countryKorea">Korea</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryLuxembourg" value="Luxembourg" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryLuxembourg" value="Luxembourg" data-continent="Europe">
                   <label class="form-check-label" for="countryLuxembourg">Luxembourg</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryMexico" value="Mexico" data-continent="NorthAmerica">
+                  <input class="form-check-input country" type="checkbox" id="countryMexico" value="Mexico" data-continent="NorthAmerica">
                   <label class="form-check-label" for="countryMexico">Mexico</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryNetherlands" value="Netherlands" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryNetherlands" value="Netherlands" data-continent="Europe">
                   <label class="form-check-label" for="countryNetherlands">Netherlands</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryNewZealand" value="New Zealand" data-continent="Oceania">
+                  <input class="form-check-input country" type="checkbox" id="countryNewZealand" value="New Zealand" data-continent="Oceania">
                   <label class="form-check-label" for="countryNewZealand">New Zealand</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryNorway" value="Norway" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryNorway" value="Norway" data-continent="Europe">
                   <label class="form-check-label" for="countryNorway">Norway</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryPoland" value="Poland" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryPoland" value="Poland" data-continent="Europe">
                   <label class="form-check-label" for="countryPoland">Poland</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryPortugal" value="Portugal" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryPortugal" value="Portugal" data-continent="Europe">
                   <label class="form-check-label" for="countryPortugal">Portugal</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countrySlovak Republic" value="Slovak Republic" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countrySlovak Republic" value="Slovak Republic" data-continent="Europe">
                   <label class="form-check-label" for="countrySlovak Republic">Slovak Republic</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countrySpain" value="Spain" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countrySpain" value="Spain" data-continent="Europe">
                   <label class="form-check-label" for="countrySpain">Spain</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countrySweden" value="Sweden" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countrySweden" value="Sweden" data-continent="Europe">
                   <label class="form-check-label" for="countrySweden">Sweden</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countrySwitzerland" value="Switzerland" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countrySwitzerland" value="Switzerland" data-continent="Europe">
                   <label class="form-check-label" for="countrySwitzerland">Switzerland</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryTürkiye" value="Türkiye" data-continent="Asia">
+                  <input class="form-check-input country" type="checkbox" id="countryTürkiye" value="Türkiye" data-continent="Asia">
                   <label class="form-check-label" for="countryTürkiye">Türkiye</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryUnited Kingdom" value="United Kingdom" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryUnited Kingdom" value="United Kingdom" data-continent="Europe">
                   <label class="form-check-label" for="countryUnited Kingdom">United Kingdom</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryUnited States" value="United States" data-continent="NorthAmerica">
+                  <input class="form-check-input country" type="checkbox" id="countryUnited States" value="United States" data-continent="NorthAmerica">
                   <label class="form-check-label" for="countryUnited States">United States</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryChile" value="Chile" data-continent="SouthAmerica">
+                  <input class="form-check-input country" type="checkbox" id="countryChile" value="Chile" data-continent="SouthAmerica">
                   <label class="form-check-label" for="countryChile">Chile</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryEstonia" value="Estonia" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryEstonia" value="Estonia" data-continent="Europe">
                   <label class="form-check-label" for="countryEstonia">Estonia</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryIsrael" value="Israel" data-continent="Asia">
+                  <input class="form-check-input country" type="checkbox" id="countryIsrael" value="Israel" data-continent="Asia">
                   <label class="form-check-label" for="countryIsrael">Israel</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countrySlovenia" value="Slovenia" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countrySlovenia" value="Slovenia" data-continent="Europe">
                   <label class="form-check-label" for="countrySlovenia">Slovenia</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryRussia" value="Russia" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryRussia" value="Russia" data-continent="Europe">
                   <label class="form-check-label" for="countryRussia">Russia</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryColombia" value="Colombia" data-continent="SouthAmerica">
+                  <input class="form-check-input country" type="checkbox" id="countryColombia" value="Colombia" data-continent="SouthAmerica">
                   <label class="form-check-label" for="countryColombia">Colombia</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryLithuania" value="Lithuania" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryLithuania" value="Lithuania" data-continent="Europe">
                   <label class="form-check-label" for="countryLithuania">Lithuania</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryCosta Rica" value="Costa Rica" data-continent="NorthAmerica">
+                  <input class="form-check-input country" type="checkbox" id="countryCosta Rica" value="Costa Rica" data-continent="NorthAmerica">
                   <label class="form-check-label" for="countryCosta Rica">Costa Rica</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryLatvia" value="Latvia" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryLatvia" value="Latvia" data-continent="Europe">
                   <label class="form-check-label" for="countryLatvia">Latvia</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="countryRomania" value="Romania" data-continent="Europe">
+                  <input class="form-check-input country" type="checkbox" id="countryRomania" value="Romania" data-continent="Europe">
                   <label class="form-check-label" for="countryRomania">Romania</label>
                 </div>
               </div>

@@ -50,11 +50,9 @@ function updateCharts() {
                 .attr("height", height + margin.top + margin.bottom)
                 .append("g")
                 .attr("transform", `translate(${margin.left},${margin.top})`);
-
             svg.append("g")
                 .attr("transform", `translate(0,${height})`)
                 .attr("class", "x-axis");
-
             svg.append("g")
                 .attr("class", "y-axis");
         }
@@ -72,6 +70,10 @@ function updateCharts() {
 
         svg.select(".x-axis").call(d3.axisBottom(x).tickFormat(d3.format("d")));
         svg.select(".y-axis").call(d3.axisLeft(y));
+
+        var i =0
+        var dy = 1
+ 
 
         selectedCountries.forEach(function(country) {
             var countryData = data.filter(function(d) {
@@ -103,23 +105,29 @@ function updateCharts() {
                 .attr("d", expectancy);
 
             var lastDataPoint = countryData[countryData.length - 1];
+
+   
             svg.append("text")
                 .attr("x", x(+lastDataPoint.Year))
                 .attr("y", y(+lastDataPoint.Value))
-                .attr("dx", 2)
+                .attr("dx", dy*(i*-40))
                 .attr("dy", 0)
                 .text(country)
                 .style("font-size", "12px")
                 .style("fill", "black");
+            if (lastDataPoint.Expectancy){
             svg.append("text")
                 .attr("x", x(+lastDataPoint.Year))
                 .attr("y", y(+lastDataPoint.Expectancy))
-                .attr("dx", 2)
+                .attr("dx", dy*(i*-40))
                 .attr("dy", 0)
                 .text(country)
                 .style("font-size", "12px")
                 .style("fill", "black");
+            }
+            i++;
         });
+     
     });
 }
 
@@ -199,14 +207,16 @@ function changeData() {
         var mouseover = function(d) {
             tooltip.style("opacity", 1)
             d3.select(this).style("stroke", "black").style("opacity", 1)
+            
         }
         var mousemove = function(d) {
-            tooltip.html("<h3>" + d.Country + " (" + d.Year + ")</h3>" + "<p>HEALTH POPULATION : " + d.Value + "%<br/> TOTAL EXPECTANCY  : " + d.Expectancy + "% </p>")
+            
+            tooltip.html("<h3>" + d.Country + " (" + d.Year + ")</h3>" + "<p>HEALTH POPULATION : " + d.Value + "%<br> TOTAL EXPECTANCY  : " + d.Expectancy + "% </p>")
                 .style("left", (d3.mouse(this)[0] + 10) + "px")
                 .style("top", (d3.mouse(this)[1] + 150) + "px");
         }
         var mouseleave = function(d) {
-            tooltip.style("opacity", 0)
+            tooltip.html("")
             d3.select(this).style("stroke", "none").style("opacity", 0.8)
         }
 
@@ -226,17 +236,37 @@ function changeData() {
     svg.append("text").attr("x", 0).attr("y", -10).attr("text-anchor", "left").style("font-size", "14px").style("fill", "grey").style("max-width", 400).text("The colors represent the intensity of coverage");
 }
 
+function clearCountry() {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+        checkbox.checked = false;
+    });
+    document.getElementById("chart").style.display = "none";
+    handleRangeChange();
+}
+
+function allCountry() {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+        checkbox.checked = true;
+    });
+    document.getElementById("chart").style.display = "none";
+    handleRangeChange()
+
+}
+
 changeData()
 
+
 function handleContinentCheckboxClick(continent) {
-
     var countryCheckboxes = document.querySelectorAll('input[type="checkbox"][data-continent="' + continent + '"]');
-
     var continentCheckbox = document.getElementById('continent' + continent);
     countryCheckboxes.forEach(function(checkbox) {
         checkbox.checked = continentCheckbox.checked;
     });
+    handleRangeChange()
 }
+
 
 document.getElementById('continentEurope').addEventListener('click', function() {
     handleContinentCheckboxClick('Europe');
@@ -254,20 +284,20 @@ document.getElementById('continentAsia').addEventListener('click', function() {
     handleContinentCheckboxClick('Asia');
 });
 
+
 function handleRangeChange() {
     var startYear = document.getElementById("startYear").value;
     var endYear = document.getElementById("endYear").value;
     document.getElementById("startYearOutput").textContent = startYear;
     document.getElementById("endYearOutput").textContent = endYear;
     drawHeatmap();
-    
 }
 document.getElementById("startYear").addEventListener("input", handleRangeChange);
 document.getElementById("endYear").addEventListener("input", handleRangeChange);
-const checkboxs = document.querySelectorAll('input[type="checkbox"]');
-checkboxs.forEach(checkbox => {
+const checkboxes = document.querySelectorAll('input.country');
+checkboxes.forEach(checkbox => {
     checkbox.addEventListener('click', () => {
-        const checkedCount = document.querySelectorAll('input[type="checkbox"]:checked').length;
+        const checkedCount = document.querySelectorAll('input[type="checkbox"].country:checked').length;
         if (checkedCount == 2) {
             document.getElementById("chart").style.display = "block";
             updateCharts();
@@ -277,8 +307,10 @@ checkboxs.forEach(checkbox => {
         }
     });
 });
-checkboxs.forEach(checkbox => {
+checkboxes.forEach(checkbox => {
     checkbox.addEventListener('click', handleRangeChange);
+    checkbox.checked = true
+    ;
 });
 
 function drawHeatmap() {

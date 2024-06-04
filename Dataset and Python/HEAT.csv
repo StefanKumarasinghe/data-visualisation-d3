@@ -1,0 +1,467 @@
+Country,Year,Value
+Australia,2010,100.0
+Australia,2011,100.0
+Australia,2012,100.0
+Australia,2013,100.0
+Australia,2014,100.0
+Australia,2015,100.0
+Australia,2016,100.0
+Australia,2017,100.0
+Australia,2018,100.0
+Australia,2019,100.0
+Australia,2020,100.0
+Australia,2021,100.0
+Australia,2022,100.0
+Austria,2010,99.3
+Austria,2011,99.9
+Austria,2012,99.9
+Austria,2013,99.9
+Austria,2014,99.9
+Austria,2015,99.9
+Austria,2016,99.9
+Austria,2017,99.9
+Austria,2018,99.9
+Austria,2019,99.9
+Austria,2020,99.9
+Austria,2021,99.9
+Belgium,2010,99.0
+Belgium,2011,99.0
+Belgium,2012,99.0
+Belgium,2013,99.0
+Belgium,2014,99.0
+Belgium,2015,99.0
+Belgium,2016,99.0
+Belgium,2017,98.7
+Belgium,2018,98.7
+Belgium,2019,98.6
+Belgium,2020,98.6
+Belgium,2021,98.6
+Belgium,2022,98.6
+Canada,2010,100.0
+Canada,2011,100.0
+Canada,2012,100.0
+Canada,2013,100.0
+Canada,2014,100.0
+Canada,2015,100.0
+Canada,2016,100.0
+Canada,2017,100.0
+Canada,2018,100.0
+Canada,2019,100.0
+Canada,2020,100.0
+Canada,2021,100.0
+Canada,2022,100.0
+Czechia,2010,100.0
+Czechia,2011,100.0
+Czechia,2012,100.0
+Czechia,2013,100.0
+Czechia,2014,100.0
+Czechia,2015,100.0
+Czechia,2016,100.0
+Czechia,2017,100.0
+Czechia,2018,100.0
+Czechia,2019,100.0
+Czechia,2020,100.0
+Czechia,2021,100.0
+Czechia,2022,100.0
+Denmark,2010,100.0
+Denmark,2011,100.0
+Denmark,2012,100.0
+Denmark,2013,100.0
+Denmark,2014,100.0
+Denmark,2015,100.0
+Denmark,2016,100.0
+Denmark,2017,100.0
+Denmark,2018,100.0
+Denmark,2019,100.0
+Denmark,2020,100.0
+Denmark,2021,100.0
+Denmark,2022,100.0
+Finland,2010,100.0
+Finland,2011,100.0
+Finland,2012,100.0
+Finland,2013,100.0
+Finland,2014,100.0
+Finland,2015,100.0
+Finland,2016,100.0
+Finland,2017,100.0
+Finland,2018,100.0
+Finland,2019,100.0
+Finland,2020,100.0
+Finland,2021,100.0
+Finland,2022,100.0
+France,2010,99.9
+France,2011,99.9
+France,2012,99.9
+France,2013,99.9
+France,2014,99.9
+France,2015,99.9
+France,2016,99.9
+France,2017,99.9
+France,2018,99.9
+France,2019,99.9
+France,2020,99.9
+France,2021,99.9
+France,2022,99.9
+Germany,2010,99.8
+Germany,2011,99.8
+Germany,2012,99.9
+Germany,2013,99.9
+Germany,2014,99.9
+Germany,2015,99.9
+Germany,2016,99.9
+Germany,2017,99.9
+Germany,2018,99.9
+Germany,2019,99.9
+Germany,2020,99.9
+Germany,2021,99.9
+Greece,2016,100.0
+Greece,2017,100.0
+Greece,2018,100.0
+Greece,2019,100.0
+Greece,2020,100.0
+Greece,2021,100.0
+Hungary,2010,97.0
+Hungary,2011,96.0
+Hungary,2012,96.0
+Hungary,2013,96.0
+Hungary,2014,95.0
+Hungary,2015,95.0
+Hungary,2016,95.0
+Hungary,2017,94.0
+Hungary,2018,94.0
+Hungary,2019,94.0
+Hungary,2020,94.0
+Hungary,2021,95.0
+Iceland,2010,99.8
+Iceland,2011,99.8
+Iceland,2012,99.8
+Iceland,2013,99.8
+Iceland,2014,99.8
+Iceland,2015,99.7
+Iceland,2016,99.6
+Iceland,2017,99.5
+Iceland,2018,99.6
+Iceland,2019,99.6
+Iceland,2020,99.6
+Iceland,2021,99.6
+Ireland,2010,100.0
+Ireland,2011,100.0
+Ireland,2012,100.0
+Ireland,2013,100.0
+Ireland,2014,100.0
+Ireland,2015,100.0
+Ireland,2016,100.0
+Ireland,2017,100.0
+Ireland,2018,100.0
+Ireland,2019,100.0
+Ireland,2020,100.0
+Ireland,2021,100.0
+Ireland,2022,100.0
+Italy,2010,100.0
+Italy,2011,100.0
+Italy,2012,100.0
+Italy,2013,100.0
+Italy,2014,100.0
+Italy,2015,100.0
+Italy,2016,100.0
+Italy,2017,100.0
+Italy,2018,100.0
+Italy,2019,100.0
+Italy,2020,100.0
+Italy,2021,100.0
+Italy,2022,100.0
+Japan,2010,100.0
+Japan,2011,100.0
+Japan,2012,100.0
+Japan,2013,100.0
+Japan,2014,100.0
+Japan,2015,100.0
+Japan,2016,100.0
+Japan,2017,100.0
+Japan,2018,100.0
+Japan,2019,100.0
+Japan,2020,100.0
+Korea,2010,100.0
+Korea,2011,100.0
+Korea,2012,100.0
+Korea,2013,100.0
+Korea,2014,100.0
+Korea,2015,100.0
+Korea,2016,100.0
+Korea,2017,100.0
+Korea,2018,100.0
+Korea,2019,100.0
+Korea,2020,100.0
+Korea,2021,100.0
+Luxembourg,2017,100.0
+Luxembourg,2018,100.0
+Luxembourg,2019,100.0
+Luxembourg,2020,100.0
+Luxembourg,2021,100.0
+Luxembourg,2022,100.0
+Mexico,2010,82.4
+Mexico,2011,89.2
+Mexico,2012,89.6
+Mexico,2013,91.6
+Mexico,2014,92.9
+Mexico,2015,92.3
+Mexico,2016,89.8
+Mexico,2017,89.3
+Mexico,2018,88.3
+Mexico,2019,80.6
+Mexico,2020,72.4
+Netherlands,2010,99.6
+Netherlands,2011,99.6
+Netherlands,2012,99.7
+Netherlands,2013,99.8
+Netherlands,2014,99.8
+Netherlands,2015,99.8
+Netherlands,2016,99.9
+Netherlands,2017,99.9
+Netherlands,2018,99.9
+Netherlands,2019,99.9
+Netherlands,2020,99.9
+Netherlands,2021,99.9
+New Zealand,2010,100.0
+New Zealand,2011,100.0
+New Zealand,2012,100.0
+New Zealand,2013,100.0
+New Zealand,2014,100.0
+New Zealand,2015,100.0
+New Zealand,2016,100.0
+New Zealand,2017,100.0
+New Zealand,2018,100.0
+New Zealand,2019,100.0
+New Zealand,2020,100.0
+New Zealand,2021,100.0
+New Zealand,2022,100.0
+Norway,2010,100.0
+Norway,2011,100.0
+Norway,2012,100.0
+Norway,2013,100.0
+Norway,2014,100.0
+Norway,2015,100.0
+Norway,2016,100.0
+Norway,2017,100.0
+Norway,2018,100.0
+Norway,2019,100.0
+Norway,2020,100.0
+Norway,2021,100.0
+Norway,2022,100.0
+Poland,2010,97.5
+Poland,2011,96.6
+Poland,2012,91.0
+Poland,2013,91.6
+Poland,2014,91.3
+Poland,2015,91.0
+Poland,2016,91.5
+Poland,2017,92.6
+Poland,2018,92.9
+Poland,2019,93.4
+Poland,2020,93.3
+Poland,2021,94.0
+Poland,2022,96.7
+Portugal,2010,100.0
+Portugal,2011,100.0
+Portugal,2012,100.0
+Portugal,2013,100.0
+Portugal,2014,100.0
+Portugal,2015,100.0
+Portugal,2016,100.0
+Portugal,2017,100.0
+Portugal,2018,100.0
+Portugal,2019,100.0
+Portugal,2020,100.0
+Portugal,2021,100.0
+Slovak Republic,2010,94.8
+Slovak Republic,2011,95.2
+Slovak Republic,2012,95.0
+Slovak Republic,2013,94.6
+Slovak Republic,2014,94.2
+Slovak Republic,2015,93.8
+Slovak Republic,2016,94.5
+Slovak Republic,2017,94.6
+Slovak Republic,2018,94.5
+Slovak Republic,2019,94.6
+Slovak Republic,2020,94.6
+Slovak Republic,2021,95.0
+Spain,2011,99.0
+Spain,2014,99.1
+Spain,2017,99.0
+Spain,2018,100.0
+Spain,2019,100.0
+Spain,2020,100.0
+Spain,2021,100.0
+Spain,2022,100.0
+Sweden,2010,100.0
+Sweden,2011,100.0
+Sweden,2012,100.0
+Sweden,2013,100.0
+Sweden,2014,100.0
+Sweden,2015,100.0
+Sweden,2016,100.0
+Sweden,2017,100.0
+Sweden,2018,100.0
+Sweden,2019,100.0
+Sweden,2020,100.0
+Sweden,2021,100.0
+Switzerland,2010,100.0
+Switzerland,2011,100.0
+Switzerland,2012,100.0
+Switzerland,2013,100.0
+Switzerland,2014,100.0
+Switzerland,2015,100.0
+Switzerland,2016,100.0
+Switzerland,2017,100.0
+Switzerland,2018,100.0
+Switzerland,2019,100.0
+Switzerland,2020,100.0
+Switzerland,2021,100.0
+Türkiye,2010,96.2
+Türkiye,2011,97.6
+Türkiye,2012,98.2
+Türkiye,2013,98.0
+Türkiye,2014,98.4
+Türkiye,2015,98.4
+Türkiye,2016,98.2
+Türkiye,2017,99.2
+Türkiye,2018,98.5
+Türkiye,2019,98.8
+Türkiye,2020,98.5
+Türkiye,2021,98.8
+United Kingdom,2010,100.0
+United Kingdom,2011,100.0
+United Kingdom,2012,100.0
+United Kingdom,2013,100.0
+United Kingdom,2014,100.0
+United Kingdom,2015,100.0
+United Kingdom,2016,100.0
+United Kingdom,2017,100.0
+United Kingdom,2018,100.0
+United Kingdom,2019,100.0
+United Kingdom,2020,100.0
+United Kingdom,2021,100.0
+United States,2010,30.8
+United States,2011,31.8
+United States,2012,32.6
+United States,2013,33.0
+United States,2014,34.5
+United States,2015,35.6
+United States,2016,36.3
+United States,2017,35.9
+United States,2018,34.0
+United States,2019,37.3
+United States,2020,38.1
+United States,2021,38.4
+Chile,2010,74.4
+Chile,2011,76.5
+Chile,2012,76.7
+Chile,2013,76.4
+Chile,2014,75.7
+Chile,2015,73.8
+Chile,2016,75.5
+Chile,2017,75.5
+Chile,2018,75.2
+Chile,2019,77.7
+Chile,2020,77.8
+Chile,2021,77.4
+Chile,2022,78.7
+Estonia,2010,94.5
+Estonia,2011,94.0
+Estonia,2012,93.7
+Estonia,2013,93.6
+Estonia,2014,93.9
+Estonia,2015,94.0
+Estonia,2016,94.0
+Estonia,2017,94.1
+Estonia,2018,94.5
+Estonia,2019,95.0
+Estonia,2020,95.2
+Estonia,2021,95.9
+Estonia,2022,96.1
+Israel,2010,100.0
+Israel,2011,100.0
+Israel,2012,100.0
+Israel,2013,100.0
+Israel,2014,100.0
+Israel,2015,100.0
+Israel,2016,100.0
+Israel,2017,100.0
+Israel,2018,100.0
+Israel,2019,100.0
+Israel,2020,100.0
+Israel,2021,100.0
+Israel,2022,100.0
+Slovenia,2010,100.0
+Slovenia,2011,100.0
+Slovenia,2012,100.0
+Slovenia,2013,100.0
+Slovenia,2014,100.0
+Slovenia,2015,100.0
+Slovenia,2016,100.0
+Slovenia,2017,100.0
+Slovenia,2018,100.0
+Slovenia,2019,100.0
+Slovenia,2020,100.0
+Slovenia,2021,100.0
+Russia,2010,98.9
+Russia,2012,99.8
+Russia,2013,99.2
+Russia,2014,99.9
+Russia,2015,100.0
+Russia,2016,100.0
+Russia,2017,99.7
+Russia,2018,99.6
+Russia,2019,99.1
+Russia,2020,99.2
+Colombia,2010,93.6
+Colombia,2011,96.4
+Colombia,2012,96.4
+Colombia,2013,96.0
+Colombia,2014,96.6
+Colombia,2015,97.6
+Colombia,2016,95.7
+Colombia,2017,94.9
+Colombia,2018,94.7
+Lithuania,2010,90.9
+Lithuania,2011,91.4
+Lithuania,2012,91.9
+Lithuania,2013,91.8
+Lithuania,2014,92.0
+Lithuania,2015,92.4
+Lithuania,2016,92.5
+Lithuania,2017,93.9
+Lithuania,2018,98.1
+Lithuania,2019,98.7
+Lithuania,2020,99.1
+Lithuania,2021,98.8
+Lithuania,2022,98.9
+Costa Rica,2010,91.9
+Costa Rica,2011,93.7
+Costa Rica,2012,93.6
+Costa Rica,2013,94.4
+Costa Rica,2014,94.7
+Costa Rica,2015,94.9
+Costa Rica,2016,95.0
+Costa Rica,2017,95.4
+Costa Rica,2018,91.6
+Costa Rica,2019,91.1
+Costa Rica,2020,91.8
+Costa Rica,2021,90.9
+Latvia,2017,100.0
+Latvia,2018,100.0
+Latvia,2019,100.0
+Latvia,2020,100.0
+Latvia,2021,100.0
+Latvia,2022,100.0
+Romania,2012,91.2
+Romania,2013,90.5
+Romania,2014,86.2
+Romania,2015,86.7
+Romania,2016,86.9
+Romania,2017,85.3
+Romania,2018,85.8
+Romania,2019,85.5
+Romania,2020,85.4
+Romania,2021,85.5
+Romania,2022,88.5
